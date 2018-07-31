@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload new File</title>
+</head>
+<body>
+    <h1>Upload new File</h1>
+    {% if filename %}
+         <img src="{{filename}}">
+    {% endif %}
+    <form method=get enctype=multipart/form-data action="..">
+         <input type=submit value=Return />
+    </form>
+    <form method=get enctype=multipart/form-data action="..">
+         <input type=submit value=Recognize />
+    </form>
+</body>
+</html>
