@@ -91,9 +91,9 @@ python object_detection/object_detection_runner.py
 It will run your object detection model found at `output_inference_graph/frozen_inference_graph.pb` on all the images in the `test_images` directory and output the results in the `output/test_images` directory.
 
 ## Results
-Here’s what I got from running my model over all the frames in this clip from Star Wars: The Force Awakens.
+Here’s what I got from running my model over a buttons images dataset : To detect buttons
 
-[![Watch the video](screenshots/youtube.png)](https://www.youtube.com/watch?v=xW2hpkoaIiM)
+![](screenshots/screenshot2.jpg)
 
 ## License
 
