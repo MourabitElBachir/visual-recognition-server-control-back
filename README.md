@@ -93,8 +93,8 @@ It will run your object detection model found at `output_inference_graph/frozen_
 ## Results
 Here’s what I got from running my model over a buttons images dataset : To detect buttons
 
-![](screenshots/screenshot2.jpg)
-
+![](screenshots/screenshot6.jpg)
+![](screenshots/screenshot7.jpg)
 ## License
 
 [MIT](LICENSE)

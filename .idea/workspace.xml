@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06748b8c-d3cc-4f49-8e70-b3bba0ef4568" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="136">
-                <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+              <first_editor relative-caret-position="381">
+                <caret line="96" selection-start-line="96" selection-end-line="96" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,6 +71,11 @@
               <item name="Custom-Buttons-Detection-Gitlab" type="462c0819:PsiDirectoryNode" />
               <item name="models_training" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Custom-Buttons-Detection-Gitlab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Buttons-Detection-Gitlab" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -80,7 +84,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Custom-Buttons-Detection" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -149,12 +153,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533111566999</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit Screenshot">
+      <created>1533111913286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533111913286</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit README.md">
+      <created>1533113056055</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533113056055</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -189,7 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Screenshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Screenshot" />
+    <MESSAGE value="Commit README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit README.md" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -203,11 +221,17 @@
     <entry file="file://$PROJECT_DIR$/output/test_images/JPEG_20180615_104944_1249903301.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/screenshot1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/screenshot5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="136">
-            <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+          <first_editor relative-caret-position="381">
+            <caret line="96" selection-start-line="96" selection-end-line="96" />
           </first_editor>
           <second_editor />
         </state>
