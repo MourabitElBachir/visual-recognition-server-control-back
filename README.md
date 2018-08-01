@@ -96,6 +96,11 @@ Here’s what I got from running my model over a buttons images dataset : To det
 
 ![](screenshots/screenshot6.jpg)
 ![](screenshots/screenshot7.jpg)
+
+
+## Web server recognition - Configuration
+
+
 ## License
 
 [MIT](LICENSE)
