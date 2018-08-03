@@ -1,8 +1,9 @@
-# Custom Object Detection with TensorFlow : Buttons Case Example
+# Custom Object Detection with TensorFlow - Server side Python 
+## Buttons Case Example
+
 Object detection allows for the recognition, detection, and localization of multiple objects within an image. It provides us a much better understanding of an image as a whole as apposed to just visual recognition.
 
 **Why Object Detection?**
-
 ![](screenshots/screenshot1.jpg)
 
 ## Installation
@@ -99,8 +100,18 @@ Here’s what I got from running my model over a buttons images dataset : To det
 
 
 ## Web server recognition - Configuration
+To start the Flask Python Web server, run :
+```bash
+python object_detection/upload.py
+```
+
+server running status : 
+
+![](screenshots/flask.JPG)
 
 
-## License
+## Analytics
 
-[MIT](LICENSE)
+Accuracy graphic for 25000 steps training/validation 
+
+![](screenshots/accuracy.JPG)
