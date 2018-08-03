@@ -31,7 +31,7 @@ export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 ## Usage
 ### 1) Path modifications
 Change the paths in the project **config files** : **./faster_rcnn_resnet101.config** and **./ssd_mobilenet_v1_coco.config** for example. 
-And also **object_detection/create_tf_record.py**, by replacing **<absoolute path to project>** with the **absolute project path**
+And also **object_detection/create_tf_record.py**, by replacing **`<absoolute path to project>`** with the **absolute project path**
 
 ### 2) Create the TensorFlow Records
 Run the script:
