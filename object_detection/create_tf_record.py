@@ -177,8 +177,8 @@ def main(_):
   logging.info('%d training and %d validation examples.',
                len(train_examples), len(val_examples))
 
-  train_output_path = 'C:\\Users\\ebmourabit\\Documents\\Custom-Buttons-Detection\\train.record'
-  val_output_path = 'C:\\Users\\ebmourabit\\Documents\\Custom-Buttons-Detection\\val.record'
+  train_output_path = '<absoolute path to project>/train.record'
+  val_output_path = '<absoolute path to project>/val.record'
   create_tf_record(train_output_path, label_map_dict, annotations_dir,
                    image_dir, train_examples)
   print('train record created')

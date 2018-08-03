@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06748b8c-d3cc-4f49-8e70-b3bba0ef4568" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Fixed_issues/installer un package creer localement/Capture.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faster_rcnn_resnet101.config" beforeDir="false" afterPath="$PROJECT_DIR$/faster_rcnn_resnet101.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/create_tf_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/create_tf_record.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd_mobilenet_v1_coco.config" beforeDir="false" afterPath="$PROJECT_DIR$/ssd_mobilenet_v1_coco.config" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,23 +17,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="523">
-                <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+              <first_editor relative-caret-position="115">
+                <caret line="32" column="94" selection-start-line="32" selection-start-column="94" selection-end-line="32" selection-end-column="94" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faster_rcnn_resnet101.config" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object_detection/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-714" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faster_rcnn_resnet101.config" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faster_rcnn_resnet101.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            <state relative-caret-position="-93">
+              <caret line="105" column="76" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ssd_mobilenet_v1_coco.config" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssd_mobilenet_v1_coco.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2117">
+              <caret line="192" column="59" selection-start-line="192" selection-start-column="59" selection-end-line="192" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_tf_record.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object_detection/create_tf_record.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="180" column="21" lean-forward="true" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -49,6 +77,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>C:\\Users\\</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,6 +89,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/object_detection/upload.py" />
+        <option value="$PROJECT_DIR$/faster_rcnn_resnet101.config" />
+        <option value="$PROJECT_DIR$/ssd_mobilenet_v1_coco.config" />
+        <option value="$PROJECT_DIR$/object_detection/create_tf_record.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -98,6 +134,16 @@
               <item name="Custom-Buttons-Detection-Gitlab" type="462c0819:PsiDirectoryNode" />
               <item name="Fixed_issues" type="462c0819:PsiDirectoryNode" />
               <item name="installer un package creer localement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Custom-Buttons-Detection-Gitlab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Buttons-Detection-Gitlab" type="462c0819:PsiDirectoryNode" />
+              <item name="object_detection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Custom-Buttons-Detection-Gitlab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Custom-Buttons-Detection-Gitlab" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Custom-Buttons-Detection-Gitlab" type="b2602c69:ProjectViewProjectNode" />
@@ -233,11 +279,26 @@
       <option name="project" value="LOCAL" />
       <updated>1533289811823</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Commit Fixed Issues folder">
+      <created>1533300382836</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1533300382836</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Commit README.md Changes">
+      <created>1533300620771</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1533300620771</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -245,12 +306,13 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26768225" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2563966" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26768225" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2563966" />
       <window_info anchor="right" id="R Packages" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.021321962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -261,7 +323,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +334,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Screenshot" />
     <MESSAGE value="Commit README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit README.md" />
+    <MESSAGE value="Commit Fixed Issues folder" />
+    <MESSAGE value="Commit README.md Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit README.md Changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -334,11 +397,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn_resnet101.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="105" column="76" selection-start-line="105" selection-start-column="76" selection-end-line="105" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssd_mobilenet_v1_coco.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2117">
+          <caret line="192" column="59" selection-start-line="192" selection-start-column="59" selection-end-line="192" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_detection/create_tf_record.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="180" column="21" lean-forward="true" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_detection/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="523">
-            <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+          <first_editor relative-caret-position="115">
+            <caret line="32" column="94" selection-start-line="32" selection-start-column="94" selection-end-line="32" selection-end-column="94" />
           </first_editor>
           <second_editor />
         </state>
@@ -346,16 +438,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faster_rcnn_resnet101.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
         </state>
       </provider>
     </entry>

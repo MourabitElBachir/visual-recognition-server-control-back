@@ -29,7 +29,11 @@ export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 
 
 ## Usage
-### 1) Create the TensorFlow Records
+### 1) Path modifications
+Change the paths in the project **config files** : **./faster_rcnn_resnet101.config** and **./ssd_mobilenet_v1_coco.config** for example. 
+And also **object_detection/create_tf_record.py**, by replacing **<absoolute path to project>** with the **absolute project path**
+
+### 2) Create the TensorFlow Records
 Run the script:
 
 ```bash
@@ -38,7 +42,7 @@ python object_detection/create_tf_record.py
 
 Once the script finishes running, you will end up with a `train.record` and a `val.record` file. This is what we will use to train the model.
 
-### 2) Download a Base Model
+### 3) Download a Base Model
 Training an object detector from scratch can take days, even when using multiple GPUs! In order to speed up training, we’ll take an object detector trained on a different dataset, and reuse some of it’s parameters to initialize our new model.
 
 You can find models to download from this [model zoo](https://github.com/bourdakos1/Custom-Object-Detection/blob/master/object_detection/g3doc/detection_model_zoo.md). Each model varies in accuracy and speed. I used `faster_rcnn_resnet101_coco` for the demo.
@@ -47,7 +51,7 @@ Extract the files and move all the `model.ckpt` to our models directory.
 
 >_**Note:** If you don't use `faster_rcnn_resnet101_coco`, replace `faster_rcnn_resnet101.config` with the corresponding [config file](https://github.com/bourdakos1/Custom-Object-Detection/tree/master/object_detection/samples/configs)._
 
-### 3) Train the Model
+### 4) Train the Model
 Run the following script to train the model:
 
 ```bash
@@ -57,7 +61,7 @@ python object_detection/train.py \
         --pipeline_config_path=faster_rcnn_resnet101.config
 ```
 
-### 4) Export the Inference Graph
+### 5) Export the Inference Graph
 When you model is ready depends on your training data, the more data, the more steps you’ll need. My model was pretty solid at ~4.5k steps. Then, at about ~20k steps, it peaked. I even went on and trained it for 200k steps, but it didn’t get any better.
 
 >_**Note:** If training takes way to long, [read this](https://medium.freecodecamp.org/tracking-the-millenium-falcon-with-tensorflow-c8c86419225e)._
@@ -83,7 +87,7 @@ python object_detection/export_inference_graph.py \
 
 You should see a new `output_inference_graph` directory with a `frozen_inference_graph.pb` file.
 
-### 5) Test the Model
+### 6) Test the Model
 Just run the following command:
 
 ```bash
